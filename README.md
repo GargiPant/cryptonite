@@ -145,6 +145,7 @@ In the main function, we see that the flag will be printed once the variable 'lo
 By manipulating the player's position values, we can control the array indexing and write data to a specific location in memory. 'local_aa4' is located on the stack, and it immediately precedes the 'map_buf[]' array. Underflowing the 'map_buf' array involves manipulating the array index in a way that we access memory before the beginning of the array. This can lead to unintended consequences, such as overwriting variables on the stack. By setting the player's position to {0, -4}, we are effectively moving the array index four positions backward. This positioning is crucial to writing data to 'local_aa4' on the stack. The player_title character is used to write data to the least significant byte (LSB) of 'local_aa4', effectively changing its value.
 Going to position {0, -4} has effectively changed our flag variable value from 0 to 64.
 Typing 'p' will effectively solve the map for us and display the flag.
+
 ![image](https://github.com/user-attachments/assets/ab9ef8d2-fd5f-4c23-9650-cbc33fd48a9f)
 ---
 ## 7. Caas
