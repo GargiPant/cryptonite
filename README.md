@@ -38,3 +38,5 @@ Upon executing the code, we get the key to be `picoCTF{1n_7h3_|<3y_of_54ef6292}`
 ![image](https://github.com/user-attachments/assets/0a5f46fd-0bc4-4667-98d3-969d8764735c)
 
 ### Key :picoCTF{1n_7h3_|<3y_of_54ef6292}
+
+## 2. GDB Baby Step 1
